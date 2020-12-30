@@ -3,7 +3,7 @@
 #
 genpass() {
 # This function generates Strong or Very Strong password.
-	local len=${1:-12}
+	local len=${1:-18}
 	
 	head -n 100 /dev/urandom | strings | \
 	sed -n '
